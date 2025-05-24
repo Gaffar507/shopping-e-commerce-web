@@ -1,6 +1,5 @@
 const footerHTML = `
-<footer class="section-footer">
-    
+
     <div class="footer-container container">
       <div class="content_1">
         <h2 style='color: white;'>TradeX</h2>
@@ -39,9 +38,7 @@ const footerHTML = `
       <div class="f-design-txt">
         <p>Designed and Coded by Mr.Billionaire</p>
       </div>
-    </div>
-  </footer>`;
-  
+    </div>`
 
   const footerElement = document.querySelector('.section-footer');
 

@@ -301,18 +301,8 @@ textarea:focus-visible {
 /***** Hero Section *****/
 
 main {
-  height: 84vh;
+  height: 90vh;
   position: relative;
-  background-color: #d9e9ff;
-
-  background-image: linear-gradient(
-    to top right,
-    #ffffff,
-    #9ba9f5,
-    #000dff,
-    #9ba9f5,
-    #ffffffae
-  );
 }
 
 .shapedividers_com-8307 {
@@ -354,6 +344,7 @@ main .section-hero {
     font-size: 1.7rem;
     word-spacing: 0.2rem;
     color: #ff7b00;
+    color: #ff4000;
     font-weight: 700;
     margin-bottom: 1rem;
   }
@@ -363,7 +354,7 @@ main .section-hero {
     line-height: 1.3;
     initial-letter: -0.2rem;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
     font-family: "Jost";
   }
 
@@ -378,7 +369,6 @@ main .section-hero {
 .section-hero img {
   width: 100%;
   height: auto;
-  transform: scaleX(-1);
 }
 
 .hero-btn {
@@ -692,15 +682,15 @@ footer {
   margin-top: 6.4rem;
 }
 
-.footer-container .content_1 img {
-  height: auto;
-  width: 15rem;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 0;
+  padding: 6rem 3rem !important;
+}
+
+.footer-container .content_1 img {
+  height: auto;
+  width: 15rem;
 }
 
 .footer-container h4 {
@@ -1239,6 +1229,10 @@ footer {
     grid-template-columns: repeat(1, minmax(100%, 1fr));
     text-align: center;
   } */
+
+  .footer-container {
+      padding: 4rem 1rem !important;
+  }
 
   .section-navbar .container {
     flex-direction: column;
